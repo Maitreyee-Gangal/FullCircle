@@ -63,13 +63,18 @@ struct q1: View {
                                 .font(.title2)
                                 .fontWeight(.bold)
                                 .foregroundColor(Color.white)
+                                .background(Color(hue: 0.475, saturation: 1, brightness: 0.34))
+                                .cornerRadius(20)
                                 .padding(EdgeInsets(top: 0, leading: 0, bottom: 10, trailing: 0))
                             
                             
                             Text("Fantasy")
+                            .padding()
                                 .font(.title2)
                                 .fontWeight(.bold)
                                 .foregroundColor(Color.white)
+                                .background(Color(hue: 0.475, saturation: 1, brightness: 0.34))
+                                .cornerRadius(20)
                                 .padding(EdgeInsets(top: 0, leading: 0, bottom: 10, trailing: 0))
                         
                     }
